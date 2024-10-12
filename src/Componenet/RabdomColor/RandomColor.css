@@ -1,0 +1,17 @@
+.maindiv{
+    height: 100vh;
+    width: 100vw;
+    color: blue;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorMaker{
+    display: block;
+    gap: 10px;
+}
+.btn{
+    margin: 10px;
+}

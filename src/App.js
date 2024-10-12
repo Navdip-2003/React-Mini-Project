@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
+import RandomColor from "./Componenet/RabdomColor/RandomColor";
+import ScrollIndicator from "./Componenet/Scroll-Indicator/Scroll_Indicator";
+import StarRating from "./Componenet/Star-Rating/StarRating";
+import TreeView from "./Componenet/Tree-view/TreeView";
+import { sidemenus } from "./Componenet/Tree-view/data";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+    
+    {/* <StarRating/> */}
+    {/* <TreeView menus ={sidemenus} /> */}
+    <ScrollIndicator />
+   </div>
   );
 }
 
